@@ -6,10 +6,10 @@
 npm[yarn|pnpm] install @tangjj1996/stylelint-config --dev
 ```
 
-Finnally, add the following to your `.eslintrc` file
+Finnally, add the following to your `.eslintrc.js` file
 
 ```
-{
+module.exports = {
   extends: "@tangjj1996/eslint-config"
 }
 ```

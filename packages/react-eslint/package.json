@@ -12,6 +12,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "peerDependencies": {
+    "eslint": ">8.0.0"
+  },
   "dependencies": {
     "@tangjj1996/eslint-config-ts": "workspace:^1.0.0",
     "eslint-plugin-mobx": "^0.0.9",
