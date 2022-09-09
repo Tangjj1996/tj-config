@@ -8,6 +8,9 @@
     "email": "awesometangji@gmail.com"
   },
   "license": "ISC",
+  "scripts": {
+    "lint": "turbo run lint"
+  },
   "devDependencies": {
     "@tangjj1996/eslint-config": "workspace:^1.0.0",
     "@tangjj1996/prettier": "workspace:^1.0.0",
