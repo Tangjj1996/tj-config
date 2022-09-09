@@ -1,5 +1,5 @@
 {
-  "name": "@tj-config/eslint-config-react",
+  "name": "@tangjj1996/eslint-config-react",
   "version": "1.0.0",
   "publishConfig": {
     "access": "public"
@@ -11,5 +11,11 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@tangjj1996/eslint-config-ts": "workspace:^1.0.0",
+    "eslint-plugin-mobx": "^0.0.9",
+    "eslint-plugin-react": "^7.31.8",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  }
 }

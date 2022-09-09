@@ -1,5 +1,5 @@
 {
-  "name": "@tj-config/eslint-config",
+  "name": "@tangjj1996/eslint-config",
   "version": "1.0.0",
   "publishConfig": {
     "access": "public"

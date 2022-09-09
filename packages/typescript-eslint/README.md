@@ -3,13 +3,13 @@
 `eslint` as config peerDependencies, so Make sure you have installed it in DevDependencies. Then
 
 ```
-npm[yarn|pnpm] install @ts-config/eslint-config-ts --dev
+npm[yarn|pnpm] install @tangjj1996/eslint-config-ts --dev
 ```
 
 Finnally, add the following to your `.eslintrc` file
 
 ```
 {
-  extends: "@tj-config/eslint-config-ts"
+  extends: "@tangjj1996/eslint-config-ts"
 }
 ```

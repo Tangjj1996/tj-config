@@ -3,13 +3,13 @@
 `stylint` as config peerDependencies, so Make sure you have installed it in DevDependencies. Then
 
 ```
-npm[yarn|pnpm] install @ts-config/stylelint-config --dev
+npm[yarn|pnpm] install @tangjj1996/stylelint-config --dev
 ```
 
 Finally, add the following to your `.stylelintrc` file
 
 ```
 {
-  extends: "@tj-config/stylelint-config"
+  extends: "@tangjj1996/stylelint-config"
 }
 ```

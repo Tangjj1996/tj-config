@@ -1,5 +1,5 @@
 {
-  "name": "@tj-config/prettier",
+  "name": "@tangjj1996/prettier",
   "version": "1.0.0",
   "publishConfig": {
     "access": "public"

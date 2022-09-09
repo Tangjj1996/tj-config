@@ -1,5 +1,5 @@
 {
-  "name": "@tj-config/eslint-config-ts",
+  "name": "@tangjj1996/eslint-config-ts",
   "version": "1.0.0",
   "publishConfig": {
     "access": "public"
@@ -16,7 +16,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@tj-config/eslint-config": "workspace:^1.0.0",
+    "@tangjj1996/eslint-config": "workspace:^1.0.0",
     "@typescript-eslint/eslint-plugin": "^5.36.2",
     "@typescript-eslint/parser": "^5.36.2"
   }
