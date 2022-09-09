@@ -6,10 +6,10 @@
 npm[yarn|pnpm] install @ts-config/stylelint-config --dev
 ```
 
-Finnally, add the following to your `.stylelintrc` file
+Finally, add the following to your `.stylelintrc` file
 
 ```
-module.exports = {
-  extends: "@ts-config/stylelint-config"
+{
+  extends: "@tj-config/stylelint-config"
 }
 ```
