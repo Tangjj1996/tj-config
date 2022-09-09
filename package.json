@@ -1,12 +1,11 @@
 {
   "name": "tj-config",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "private": true,
+  "version": "0.0.0",
   "keywords": [],
-  "author": "",
+  "author": {
+    "name": "@tangjj1996",
+    "email": "awesometangji@gmail.com"
+  },
   "license": "ISC"
 }

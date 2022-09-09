@@ -1,6 +1,9 @@
 {
   "name": "@tj-config/typescript-eslint-config",
   "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "personal typescript eslint config",
   "main": "index.js",
   "scripts": {
