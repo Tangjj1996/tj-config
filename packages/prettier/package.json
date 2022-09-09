@@ -5,16 +5,16 @@
     "access": "public"
   },
   "description": "",
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
   "main": "index.js",
   "files": [
     "index.js"
   ],
   "scripts": {
-    "lint": "eslint . -c=../../.eslintrc.js && prettier . --config=index.js"
+    "lint": "eslint . -c=../../.eslintrc.js --fix && prettier . --config=index.js --write"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "peerDependencies": {
     "prettier": "^2.7.1"
   }

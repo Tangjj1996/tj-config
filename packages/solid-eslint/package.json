@@ -5,16 +5,16 @@
     "access": "public"
   },
   "description": "",
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
   "main": "index.js",
   "files": [
     "index.js"
   ],
   "scripts": {
-    "lint": "eslint -c index.js"
+    "lint": "eslint -c index.js --fix"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "peerDependencies": {
     "eslint": ">8.0.0"
   },

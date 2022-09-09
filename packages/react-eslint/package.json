@@ -5,13 +5,13 @@
     "access": "public"
   },
   "description": "personal react eslint config",
-  "main": "index.js",
-  "scripts": {
-    "lint": "eslint . -c=index.js"
-  },
-  "keywords": [],
   "author": "",
   "license": "ISC",
+  "keywords": [],
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . -c=index.js --fix"
+  },
   "peerDependencies": {
     "eslint": ">8.0.0"
   },

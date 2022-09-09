@@ -1,13 +1,13 @@
 {
   "name": "tangjj1996",
-  "private": true,
   "version": "0.0.0",
-  "keywords": [],
+  "private": true,
   "author": {
     "name": "@tangjj1996",
     "email": "awesometangji@gmail.com"
   },
   "license": "ISC",
+  "keywords": [],
   "scripts": {
     "lint": "turbo run lint"
   },
