@@ -1,0 +1,19 @@
+{
+  "name": "@tangjj1996/eslint-config-solid",
+  "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tangjj1996/eslint-config-ts": "workspace:^1.0.0",
+    "eslint-plugin-solid": "^0.7.1"
+  }
+}

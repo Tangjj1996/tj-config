@@ -1,0 +1,15 @@
+# Usage
+
+`eslint` as config peerDependencies, so Make sure you have installed it in DevDependencies. Then
+
+```
+npm[yarn|pnpm] install @tangjj1996/eslint-config-solid --dev
+```
+
+Finnally, add the following to your `.eslintrc` file
+
+```
+{
+  extends: "@tangjj1996/eslint-config-solid"
+}
+```

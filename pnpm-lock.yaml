@@ -65,6 +65,14 @@ importers:
       eslint-plugin-react: 7.31.8_eslint@8.23.0
       eslint-plugin-react-hooks: 4.6.0_eslint@8.23.0
 
+  packages/solid-eslint:
+    specifiers:
+      '@tangjj1996/eslint-config-ts': workspace:^1.0.0
+      eslint-plugin-solid: ^0.7.1
+    dependencies:
+      '@tangjj1996/eslint-config-ts': link:../typescript-eslint
+      eslint-plugin-solid: 0.7.1_itqs5654cmlnjraw6gjzqacppi
+
   packages/stylelint:
     specifiers:
       postcss-html: ^1.5.0
@@ -1281,6 +1289,24 @@ packages:
       string.prototype.matchall: 4.0.7
     dev: false
 
+  /eslint-plugin-solid/0.7.1_itqs5654cmlnjraw6gjzqacppi:
+    resolution: {integrity: sha512-DNxpdvbUcxOhSEGtT1szPQyaPCDL9aZDxBaV9ljccSis0Z2vLgl+KF2KTZZqjyQlyw+6pqe3Yu4e1fezjWV72w==}
+    engines: {node: '>=12.0.0'}
+    peerDependencies:
+      eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
+    dependencies:
+      '@typescript-eslint/utils': 5.36.2_itqs5654cmlnjraw6gjzqacppi
+      eslint: 8.23.0
+      is-html: 2.0.0
+      jsx-ast-utils: 3.3.3
+      kebab-case: 1.0.1
+      known-css-properties: 0.24.0
+      style-to-object: 0.3.0
+    transitivePeerDependencies:
+      - supports-color
+      - typescript
+    dev: false
+
   /eslint-plugin-unicorn/43.0.2_eslint@8.23.0:
     resolution: {integrity: sha512-DtqZ5mf/GMlfWoz1abIjq5jZfaFuHzGBZYIeuJfEoKKGWRHr2JiJR+ea+BF7Wx2N1PPRoT/2fwgiK1NnmNE3Hg==}
     engines: {node: '>=14.18'}
@@ -1760,6 +1786,10 @@ packages:
     resolution: {integrity: sha512-JV/yugV2uzW5iMRSiZAyDtQd+nxtUnjeLt0acNdw98kKLrvuRVyB80tsREOE7yvGVgalhZ6RNXCmEHkUKBKxew==}
     dev: false
 
+  /inline-style-parser/0.1.1:
+    resolution: {integrity: sha512-7NXolsK4CAS5+xvdj5OMMbI962hU/wvwoxk+LWR9Ek9bVtyuuYScDN6eS0rUm6TxApFpw7CX1o4uJzcd4AyD3Q==}
+    dev: false
+
   /internal-slot/1.0.3:
     resolution: {integrity: sha512-O0DB1JC/sPyZl7cIo78n5dR7eUSwwpYPiXRhTzNxZVAMUuB8vlnRFyLxdrVToks6XPLVnFfbzaVd5WLjhgg+vA==}
     engines: {node: '>= 0.4'}
@@ -1846,6 +1876,13 @@ packages:
 
   /is-hexadecimal/1.0.4:
     resolution: {integrity: sha512-gyPJuv83bHMpocVYoqof5VDiZveEoGoFL8m3BXNb2VW8Xs+rz9kqO8LOQ5DH6EsuvilT1ApazU0pyl+ytbPtlw==}
+    dev: false
+
+  /is-html/2.0.0:
+    resolution: {integrity: sha512-S+OpgB5i7wzIue/YSE5hg0e5ZYfG3hhpNh9KGl6ayJ38p7ED6wxQLd1TV91xHpcTvw90KMJ9EwN3F/iNflHBVg==}
+    engines: {node: '>=8'}
+    dependencies:
+      html-tags: 3.2.0
     dev: false
 
   /is-negative-zero/2.0.2:
@@ -1982,9 +2019,17 @@ packages:
       object.assign: 4.1.4
     dev: false
 
+  /kebab-case/1.0.1:
+    resolution: {integrity: sha512-txPHx6nVLhv8PHGXIlAk0nYoh894SpAqGPXNvbg2hh8spvHXIah3+vT87DLoa59nKgC6scD3u3xAuRIgiMqbfQ==}
+    dev: false
+
   /kind-of/6.0.3:
     resolution: {integrity: sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==}
     engines: {node: '>=0.10.0'}
+    dev: false
+
+  /known-css-properties/0.24.0:
+    resolution: {integrity: sha512-RTSoaUAfLvpR357vWzAz/50Q/BmHfmE6ETSWfutT0AJiw10e6CmcdYRQJlLRd95B53D0Y2aD1jSxD3V3ySF+PA==}
     dev: false
 
   /known-css-properties/0.25.0:
@@ -2843,6 +2888,12 @@ packages:
 
   /style-search/0.1.0:
     resolution: {integrity: sha512-Dj1Okke1C3uKKwQcetra4jSuk0DqbzbYtXipzFlFMZtowbF1x7BKJwB9AayVMyFARvU8EDrZdcax4At/452cAg==}
+    dev: false
+
+  /style-to-object/0.3.0:
+    resolution: {integrity: sha512-CzFnRRXhzWIdItT3OmF8SQfWyahHhjq3HwcMNCNLn+N7klOOqPjMeG/4JSu77D7ypZdGvSzvkrbyeTMizz2VrA==}
+    dependencies:
+      inline-style-parser: 0.1.1
     dev: false
 
   /stylelint-config-html/1.1.0_35nbotopgds64plu275w6fpq24:
