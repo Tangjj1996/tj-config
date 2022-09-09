@@ -1,0 +1,12 @@
+{
+  "name": "@tj-config/typescript-eslint-config",
+  "version": "1.0.0",
+  "description": "personal typescript eslint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
