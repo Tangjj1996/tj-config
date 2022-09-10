@@ -1,6 +1,6 @@
 # personal config cli
 
-1. Step1(clone repo and cd ts-config)
+1. Step1(clone repo and cd directory)
 
 ```
 git clone git@github.com:Tangjj1996/tj-config.git
