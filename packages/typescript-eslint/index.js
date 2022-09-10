@@ -115,15 +115,9 @@ module.exports = {
     "space-infix-ops": "off",
     "@typescript-eslint/space-infix-ops": "error",
     "keyword-spacing": "off",
-    "@typescript-eslint/keyword-spacing": [
-      "error",
-      { before: true, after: true },
-    ],
+    "@typescript-eslint/keyword-spacing": ["error", { before: true, after: true }],
     "comma-spacing": "off",
-    "@typescript-eslint/comma-spacing": [
-      "error",
-      { before: false, after: true },
-    ],
+    "@typescript-eslint/comma-spacing": ["error", { before: false, after: true }],
     "no-extra-parens": "off",
     "@typescript-eslint/no-extra-parens": ["error", "functions"],
     "no-dupe-class-members": "off",

@@ -44,10 +44,7 @@ module.exports = {
         locale: "auto",
       },
     ],
-    "react/jsx-closing-bracket-location": [
-      "error",
-      { selfClosing: "after-props" },
-    ],
+    "react/jsx-closing-bracket-location": ["error", { selfClosing: "after-props" }],
     "react/jsx-curly-brace-presence": [
       "error",
       { props: "never", children: "never" },

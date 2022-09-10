@@ -78,11 +78,7 @@ module.exports = {
     "no-cond-assign": ["error", "always"],
     "func-call-spacing": ["off", "never"],
     "key-spacing": ["error", { beforeColon: false, afterColon: true }],
-    indent: [
-      "error",
-      2,
-      { SwitchCase: 1, VariableDeclarator: 1, outerIIFEBody: 1 },
-    ],
+    indent: ["error", 2, { SwitchCase: 1, VariableDeclarator: 1, outerIIFEBody: 1 }],
     "no-restricted-syntax": [
       "error",
       "DebuggerStatement",
@@ -245,10 +241,7 @@ module.exports = {
         "jsonc/comma-dangle": ["error", "never"],
         "jsonc/comma-style": ["error", "last"],
         "jsonc/indent": ["error", 2],
-        "jsonc/key-spacing": [
-          "error",
-          { beforeColon: false, afterColon: true },
-        ],
+        "jsonc/key-spacing": ["error", { beforeColon: false, afterColon: true }],
         "jsonc/no-octal-escape": "error",
         "jsonc/object-curly-newline": [
           "error",
