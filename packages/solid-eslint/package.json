@@ -4,10 +4,14 @@
   "publishConfig": {
     "access": "public"
   },
-  "description": "",
-  "author": "",
+  "description": "Personal solid eslint config",
+  "author": "@tangjj1996",
   "license": "ISC",
-  "keywords": [],
+  "keywords": [
+    "lint",
+    "eslint",
+    "solid"
+  ],
   "main": "index.js",
   "files": [
     "index.js"

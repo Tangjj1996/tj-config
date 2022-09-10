@@ -5,9 +5,13 @@
     "access": "public"
   },
   "description": "personal react eslint config",
-  "author": "",
+  "author": "@tangjj1996",
   "license": "ISC",
-  "keywords": [],
+  "keywords": [
+    "lint",
+    "eslint",
+    "react"
+  ],
   "main": "index.js",
   "scripts": {
     "lint": "eslint . -c=index.js --fix"

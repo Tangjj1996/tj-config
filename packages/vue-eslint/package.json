@@ -4,10 +4,14 @@
   "publishConfig": {
     "access": "public"
   },
-  "description": "",
-  "author": "",
+  "description": "Personal vue eslint config",
+  "author": "@tangjj1996",
   "license": "ISC",
-  "keywords": [],
+  "keywords": [
+    "lint",
+    "eslint",
+    "vue"
+  ],
   "main": "index.js",
   "files": [
     "index.js"

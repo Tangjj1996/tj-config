@@ -4,10 +4,13 @@
   "publishConfig": {
     "access": "public"
   },
-  "description": "",
-  "author": "",
+  "description": "Personal prettier config",
+  "author": "@tangjj1996",
   "license": "ISC",
-  "keywords": [],
+  "keywords": [
+    "lint",
+    "prettier"
+  ],
   "main": "index.js",
   "files": [
     "index.js"

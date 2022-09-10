@@ -4,10 +4,14 @@
   "publishConfig": {
     "access": "public"
   },
-  "description": "personal typescript eslint config",
-  "author": "",
+  "description": "Personal typescript eslint config",
+  "author": "@tangjj1996",
   "license": "ISC",
-  "keywords": [],
+  "keywords": [
+    "lint",
+    "eslint",
+    "typescript"
+  ],
   "main": "index.js",
   "files": [
     "index.js"
