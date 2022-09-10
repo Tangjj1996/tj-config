@@ -13,9 +13,6 @@
     "scss"
   ],
   "main": "index.js",
-  "scripts": {
-    "lint": "eslint . -c=../../.eslintrc.js --fix"
-  },
   "peerDependencies": {
     "stylelint": ">14.0.0"
   },

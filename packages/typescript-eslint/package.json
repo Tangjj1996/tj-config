@@ -16,9 +16,6 @@
   "files": [
     "index.js"
   ],
-  "scripts": {
-    "lint": "eslint index.js -c=index.js --fix"
-  },
   "peerDependencies": {
     "eslint": ">8.0.0",
     "typescript": "^4.7.2"

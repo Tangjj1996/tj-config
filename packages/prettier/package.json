@@ -15,9 +15,6 @@
   "files": [
     "index.js"
   ],
-  "scripts": {
-    "lint": "eslint index.js -c=../../.eslintrc.js --fix && prettier index.js --config=index.js --write"
-  },
   "peerDependencies": {
     "prettier": "^2.7.1"
   }
