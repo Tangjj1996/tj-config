@@ -12,13 +12,13 @@ git clone git@github.com:Tangjj1996/tj-config.git
 pnpm i
 ```
 
-3. Step4(lint for finding and fix error)
+3. Step3(lint for finding and fix error)
 
 ```
 pnpm run lint
 ```
 
-4. Step5(publish)
+4. Step4(publish)
 
 ```
 pnpm run publish
