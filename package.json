@@ -9,11 +9,14 @@
   "license": "ISC",
   "keywords": [],
   "scripts": {
-    "lint": "eslint --fix && prettier . --write"
+    "lint": "eslint --fix && prettier . --write",
+    "publish": "tsx script/publish.ts"
   },
   "devDependencies": {
     "@tangjj1996/eslint-config": "workspace:^1.0.0",
     "@tangjj1996/prettier": "workspace:^1.0.0",
-    "@types/node": "^18.7.16"
+    "@types/node": "^18.7.16",
+    "tsx": "^3.9.0",
+    "zx": "^7.0.8"
   }
 }
