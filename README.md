@@ -1,4 +1,4 @@
-# personal config cli
+# Personal Config Template
 
 1. Step1(clone repo and cd directory)
 
@@ -12,7 +12,7 @@ git clone git@github.com:Tangjj1996/tj-config.git
 pnpm i
 ```
 
-3. Step3(lint for finding and fix error)
+3. Step3(lint for finding and fixing error)
 
 ```
 pnpm run lint
