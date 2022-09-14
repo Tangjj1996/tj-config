@@ -4,22 +4,20 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [1.0.9](https://github.com/Tangjj1996/tj-config/compare/v1.0.3...v1.0.9) (2022-09-14)
 
-
 ### Features
 
-* commonjs & esmodule compatibility ([428eff4](https://github.com/Tangjj1996/tj-config/commit/428eff4da72b32ea7e627f3d1cfc4b6f129b1946))
-* lib fixed ([9ef9f9b](https://github.com/Tangjj1996/tj-config/commit/9ef9f9b658b94d0512f6774037765197e4534727))
-* only esm ([3b66ac0](https://github.com/Tangjj1996/tj-config/commit/3b66ac09bfe3c1e9edf7b33797aabff42c706f54))
-* publish template ([591ce09](https://github.com/Tangjj1996/tj-config/commit/591ce093695140f1d0bdd0aa262321f1f6380d09))
+- commonjs & esmodule compatibility ([428eff4](https://github.com/Tangjj1996/tj-config/commit/428eff4da72b32ea7e627f3d1cfc4b6f129b1946))
+- lib fixed ([9ef9f9b](https://github.com/Tangjj1996/tj-config/commit/9ef9f9b658b94d0512f6774037765197e4534727))
+- only esm ([3b66ac0](https://github.com/Tangjj1996/tj-config/commit/3b66ac09bfe3c1e9edf7b33797aabff42c706f54))
+- publish template ([591ce09](https://github.com/Tangjj1996/tj-config/commit/591ce093695140f1d0bdd0aa262321f1f6380d09))
 
 ### [1.0.8](https://github.com/Tangjj1996/tj-config/compare/v1.0.3...v1.0.8) (2022-09-14)
 
-
 ### Features
 
-* commonjs & esmodule compatibility ([428eff4](https://github.com/Tangjj1996/tj-config/commit/428eff4da72b32ea7e627f3d1cfc4b6f129b1946))
-* only esm ([3b66ac0](https://github.com/Tangjj1996/tj-config/commit/3b66ac09bfe3c1e9edf7b33797aabff42c706f54))
-* publish template ([591ce09](https://github.com/Tangjj1996/tj-config/commit/591ce093695140f1d0bdd0aa262321f1f6380d09))
+- commonjs & esmodule compatibility ([428eff4](https://github.com/Tangjj1996/tj-config/commit/428eff4da72b32ea7e627f3d1cfc4b6f129b1946))
+- only esm ([3b66ac0](https://github.com/Tangjj1996/tj-config/commit/3b66ac09bfe3c1e9edf7b33797aabff42c706f54))
+- publish template ([591ce09](https://github.com/Tangjj1996/tj-config/commit/591ce093695140f1d0bdd0aa262321f1f6380d09))
 
 ### [1.0.7](https://github.com/Tangjj1996/tj-config/compare/v1.0.3...v1.0.7) (2022-09-14)
 
