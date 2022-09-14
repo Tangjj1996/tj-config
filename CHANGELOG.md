@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.2](https://github.com/Tangjj1996/tj-config/compare/v1.0.1...v1.0.2) (2022-09-14)
+
+
+### Features
+
+* pkg version update ([6ec9d23](https://github.com/Tangjj1996/tj-config/commit/6ec9d23c27f6d82f0ca67ec17c4319c652db8bcb))
+* publish script ([5eeb564](https://github.com/Tangjj1996/tj-config/commit/5eeb564c3d127cf153e8b67385b37eef53f07b02))
+
 ### 1.0.1 (2022-09-14)
 
 
