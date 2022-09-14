@@ -20,21 +20,16 @@ async function main() {
     doneLog();
 
     infoLog('3. Update recursive package');
-    // globPkg.forEach(path => {
-    //   const pkg = JSON.parse(fs.readFileSync(path, 'utf-8'));
-    //   pkg.version = version;
-    //   fs.writeFileSync(path, JSON.stringify(pkg));
-    // });
+    globPkg.forEach(path => {
+      const pkg = JSON.parse(fs.readFileSync(path, 'utf-8'));
+      pkg.version = version;
+      fs.writeFileSync(path, JSON.stringify(pkg));
+    });
+    await $`git push --follow-tags`;
     doneLog();
 
     infoLog('4. Npm publish');
-    // await $`pnpm publish`;
-    doneLog();
-
-    infoLog('5. Git tag');
-    // await $`git add -A`;
-    // await $`git commit -m feat: release pkg ${version}`;
-    // await $`git push --follow-tags`;
+    await $`pnpm publish`;
     doneLog();
   } catch (e) {
     errorLog(e);
