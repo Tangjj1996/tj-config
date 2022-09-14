@@ -23,13 +23,15 @@ async function main() {
     globPkg.forEach(path => {
       const pkg = JSON.parse(fs.readFileSync(path, 'utf-8'));
       pkg.version = version;
-      fs.writeFileSync(path, JSON.stringify(pkg));
+      fs.writeFileSync(path, JSON.stringify(pkg, null, 2));
     });
-    await $`git push --follow-tags`;
     doneLog();
 
     infoLog('4. Npm publish');
+    await $`git add -A`;
+    await $`git commit --amend --no-edit`;
     await $`pnpm publish`;
+    await $`git push --follow-tag`;
     doneLog();
   } catch (e) {
     errorLog(e);
