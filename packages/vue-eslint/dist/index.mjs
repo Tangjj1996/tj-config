@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   env: {
     /**
      * https://eslint.vuejs.org/user-guide/#faq
@@ -183,4 +183,4 @@ module.exports = {
       },
     },
   ],
-};
+}

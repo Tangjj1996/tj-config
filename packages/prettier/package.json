@@ -4,16 +4,17 @@
   "publishConfig": {
     "access": "public"
   },
+  "main": "lib/index.cjs",
+  "exports": {
+    "import": "./dist/index.mjs",
+    "require": "./lib/index.cjs"
+  },
   "description": "Personal prettier config",
   "author": "@tangjj1996",
   "license": "ISC",
   "keywords": [
     "lint",
     "prettier"
-  ],
-  "main": "index.js",
-  "files": [
-    "index.js"
   ],
   "peerDependencies": {
     "prettier": "^2.7.1"

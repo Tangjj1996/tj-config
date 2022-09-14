@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   extends: ['@tangjj1996/eslint-config-ts', 'plugin:react/recommended'],
   plugins: ['react', 'react-hooks', 'mobx'],
   rules: {
@@ -54,4 +54,4 @@ module.exports = {
     'react/jsx-indent-props': ['error', 2],
     'react/jsx-tag-spacing': ['error', { beforeSelfClosing: 'always' }],
   },
-};
+}

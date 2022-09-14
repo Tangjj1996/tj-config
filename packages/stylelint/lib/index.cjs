@@ -64,4 +64,4 @@ module.exports = {
     },
   ],
   ignoreFiles: ['**/*.js', '**/*.jsx', '**/*.ts', '**/*.tsx'],
-};
+}

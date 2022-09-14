@@ -11,10 +11,11 @@
     "lint",
     "eslint"
   ],
-  "main": "index.js",
-  "files": [
-    "index.js"
-  ],
+  "main": "lib/index.cjs",
+  "exports": {
+    "import": "./dist/index.mjs",
+    "require": "./lib/index.cjs"
+  },
   "peerDependencies": {
     "eslint": ">8.0.0"
   },

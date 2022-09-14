@@ -1,4 +1,4 @@
-const basic = require('@tangjj1996/eslint-config');
+const basic = require('@tangjj1996/eslint-config/lib')
 
 module.exports = {
   extends: [
@@ -160,4 +160,4 @@ module.exports = {
     '@typescript-eslint/no-namespace': 'off',
     '@typescript-eslint/triple-slash-reference': 'off',
   },
-};
+}
