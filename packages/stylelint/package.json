@@ -12,11 +12,7 @@
     "lint",
     "scss"
   ],
-  "main": "lib/index.cjs",
-  "exports": {
-    "import": "./dist/index.mjs",
-    "require": "./lib/index.cjs"
-  },
+  "main": "index.js",
   "peerDependencies": {
     "stylelint": ">14.0.0"
   },

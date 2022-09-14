@@ -12,11 +12,7 @@
     "eslint",
     "solid"
   ],
-  "main": "lib/index.cjs",
-  "exports": {
-    "import": "./dist/index.mjs",
-    "require": "./lib/index.cjs"
-  },
+  "main": "index.js",
   "peerDependencies": {
     "eslint": ">8.0.0"
   },

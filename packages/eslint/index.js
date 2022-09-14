@@ -51,7 +51,7 @@ module.exports = {
     'import/no-duplicates': ['error', { considerQueryString: true }],
 
     // Common
-    semi: ['error', 'always'],
+    semi: ['error', 'never'],
     curly: ['error', 'multi-or-nest', 'consistent'],
     'linebreak-style': 'off',
     quotes: ['error', 'single'],
