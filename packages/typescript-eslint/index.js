@@ -1,4 +1,4 @@
-const basic = require('@tangjj1996/eslint-config/lib')
+const basic = require('@tangjj1996/eslint-config')
 
 module.exports = {
   extends: [
