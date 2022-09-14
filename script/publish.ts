@@ -30,7 +30,7 @@ async function main() {
     infoLog('4. Npm publish');
     await $`git add -A`;
     await $`git commit --amend --no-edit`;
-    await $`pnpm publish`;
+    await $`pnpm publish -r`;
     await $`git push --follow-tag`;
     doneLog();
   } catch (e) {
