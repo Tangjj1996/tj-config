@@ -31,7 +31,7 @@ async function main() {
     await $`git add -A`;
     await $`git commit --amend --no-edit`;
     await $`pnpm publish -r`;
-    await $`git push --follow-tag`;
+    await $`git push --follow-tags`;
     doneLog();
   } catch (e) {
     errorLog(e);
