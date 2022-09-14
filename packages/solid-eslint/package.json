@@ -1,6 +1,6 @@
 {
   "name": "@tangjj1996/eslint-config-solid",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "publishConfig": {
     "access": "public"
   },

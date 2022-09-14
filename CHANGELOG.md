@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.7](https://github.com/Tangjj1996/tj-config/compare/v1.0.3...v1.0.7) (2022-09-14)
+
+
+### Features
+
+* commonjs & esmodule compatibility ([428eff4](https://github.com/Tangjj1996/tj-config/commit/428eff4da72b32ea7e627f3d1cfc4b6f129b1946))
+* publish template ([591ce09](https://github.com/Tangjj1996/tj-config/commit/591ce093695140f1d0bdd0aa262321f1f6380d09))
+
 ### [1.0.6](https://github.com/Tangjj1996/tj-config/compare/v1.0.3...v1.0.6) (2022-09-14)
 
 ### [1.0.5](https://github.com/Tangjj1996/tj-config/compare/v1.0.3...v1.0.5) (2022-09-14)
