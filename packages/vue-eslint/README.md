@@ -13,3 +13,11 @@ module.exports = {
   extends: "@tangjj1996/eslint-config-vue"
 }
 ```
+
+Maybe used in `vite` which root `package.json` indicate `type: module`, then you could config `.eslintrc`
+
+```
+{
+  extends: "@tangjj1996/eslint-config-vue"
+}
+```
